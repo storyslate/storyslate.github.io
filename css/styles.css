@@ -1,0 +1,75 @@
+@page {
+  margin-bottom: 5pt;
+  margin-top: 5pt;
+  font-family: DigitalReading;
+}
+
+@font-face {
+  font-family: "DigitalHeading";
+  font-weight: 500;
+  font-stretch: semi-expanded;
+  src: url("./fonts/11 - DigitalHeading-Regular.ttf");
+}
+
+@font-face {
+  font-family: "DigitalReading";
+  font-weight: 700;
+  font-stretch: semi-expanded;
+  src: url("./fonts/11 - DigitalReading-Regular.ttf");
+}
+
+body {
+  font-family: DigitalReading;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+
+header {
+  background: #000;
+  color: #ffffff;
+  padding: 10px 0;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+footer {
+  background: #000;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.button {
+  display: inline-block;
+  font-size: 16px;
+  color: #ffffff;
+  background: #e8491d;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background: #c0392b;
+}
+
+.center_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
