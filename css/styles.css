@@ -8,14 +8,14 @@
   font-family: "DigitalHeading";
   font-weight: 500;
   font-stretch: semi-expanded;
-  src: url("./fonts/11 - DigitalHeading-Regular.ttf");
+  src: url("./fonts/DigitalHeading-Regular.ttf");
 }
 
 @font-face {
   font-family: "DigitalReading";
   font-weight: 700;
   font-stretch: semi-expanded;
-  src: url("./fonts/11 - DigitalReading-Regular.ttf");
+  src: url("./fonts/DigitalReading-Regular.ttf");
 }
 
 body {
