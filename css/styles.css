@@ -1,9 +1,3 @@
-@page {
-  margin-bottom: 5pt;
-  margin-top: 5pt;
-  font-family: DigitalReading;
-}
-
 @font-face {
   font-family: "DigitalHeading";
   font-weight: 500;
@@ -16,6 +10,13 @@
   font-weight: 700;
   font-stretch: semi-expanded;
   src: url("./fonts/DigitalReading-Regular.ttf");
+}
+
+@page {
+  margin-bottom: 5pt;
+  margin-top: 5pt;
+  font-family: DigitalReading;
+  letter-spacing: 0.5pt;
 }
 
 body {
@@ -73,4 +74,5 @@ footer {
   margin-left: auto;
   margin-right: auto;
   width: 40%;
+  border-radius: 24px;
 }
