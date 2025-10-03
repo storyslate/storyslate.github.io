@@ -8,7 +8,7 @@
   </head>
   <body>
     <header>
-     <div>♄ <h1>Welcome to StorySlate</h1> ♄</div>
+     <p><span>♄ <h1>Welcome to StorySlate</h1> ♄</span></p>
     </header>
     <main>
       <img
@@ -18,11 +18,19 @@
       />
     </main>
     <footer>
-      <p>&copy; 2025 ♁ StorySlate</p>
+      <p>Copyright <span id="current-year"></span> ♁ StorySlate</p>
     </footer>
     <script src="js/script.js"></script>
+    <script>
+        // Get the current year using JavaScript
+        const currentYear = new Date().getFullYear();
+
+        // Set the current year in the HTML element with id "current-year"
+        document.getElementById("current-year").textContent = currentYear;
+    </script>
   </body>
 </html>
+
 
 
 
